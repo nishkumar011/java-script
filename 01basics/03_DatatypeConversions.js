@@ -74,7 +74,7 @@ anothername = "chai aur code"
 console.log(anothername);
 console.log(myyoutubename);
 
-let userOne = {
+let userOne = {                     // value will store in heap because it a non primitive datatype
     email:"user@gmail.com",
     upi: "user@ybl"
 }
