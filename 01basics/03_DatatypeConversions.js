@@ -60,3 +60,27 @@ num1 = num2 = num3 = 2 + 2
 let gameCounter = 100
 ++gameCounter;
 console.log(gameCounter);
+
+
+// ======================================================
+
+// stack (Primitive) ,heap (Non-Primitive)
+
+let myyoutubename = "Nishant music hub"
+
+let anothername = myyoutubename
+anothername = "chai aur code"
+
+console.log(anothername);
+console.log(myyoutubename);
+
+let userOne = {
+    email:"user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "nishant@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
