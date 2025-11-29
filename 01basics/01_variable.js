@@ -12,4 +12,8 @@ console.log(accountId);
 Prefer not to use var
 because of issue in block scope and functional 
 */
-console.table([accountState ,accountEmail , accountId , accountPassword , accountCity]);
+accountCity = "Ujjain"
+var accountPassword = "123"
+console.log(accountPassword)
+console.log(accountState)
+console.log(accountCity)
