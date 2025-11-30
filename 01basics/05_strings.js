@@ -7,7 +7,7 @@ const repoCount = 50
 
 const gameName = new String(`hitesh-hc-com`)
 console.log(gameName.__proto__);
-
+console.log(gameName)
 
 console.log(gameName.length);
 console.log(gameName.toLowerCase());
@@ -32,6 +32,7 @@ console.log(url.replace('%20' , '-'));
 
 console.log(url.includes('nishant'));
 console.log(url.includes('sundar'));
-
+const Name = "Nishant-Preeti-Arvind-Nikita"
+console.log(Name.split('-'));
 console.log(gameName.split('-'));
 
