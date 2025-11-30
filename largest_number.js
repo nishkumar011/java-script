@@ -6,4 +6,11 @@ console.log(balance)
 console.log(balance.toString().length)
 console.log(typeof balance)
 console.log(typeof score)
-console.log(balance.toFixed(2))
+const marks = 90.9295
+console.log(typeof marks);
+
+console.log(marks.toString().length)
+console.log(typeof marks);
+
+console.log(marks.toFixed(3))
+console.log(marks.toPrecision(1))
